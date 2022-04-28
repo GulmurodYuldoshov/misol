@@ -7,7 +7,7 @@ var summ = a+b
 alert ("Xush kelibsiz");
  var sum=prompt("summani kirgizing", );
 
- if(sum > summ) {
+ if(sum >= summ) {
     var demo = document.querySelector('.demo');
     demo.textContent = ` Oq yo’l, Alisher! `
 } else {
