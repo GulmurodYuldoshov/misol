@@ -9,13 +9,14 @@ alert ("Xush kelibsiz");
 
  if(sum > summ) {
     var demo = document.querySelector('.demo');
-    demo.textContent = `Oq yo’l, Alisher! `
+    demo.textContent = ` Oq yo’l, Alisher! `
 } else {
     var demo = document.querySelector('.demo');
     demo.textContent ='Alisher, ozgina sabr qilish kerak bo’lar ekan'
 }
-
-
+var qoldiq = sum - summ
+var pul = document.querySelector('.naqt');
+pul.textContent =qoldiq
 
 
 
